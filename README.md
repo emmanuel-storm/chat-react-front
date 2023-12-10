@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## informations 
+
+j'arrive en tout cas coté back à validé ou invalider une information donnée (checker les logs dans le CLI du back si 
+vous faire un npm run start:dev), mais je ne sais pas pourquoi est ce qu'en front, dans chat/page.tsx, dans le useEffect 
+le socketio.on n'est pas appelé, alors que dans le composant message je fais bien un socket emit de mes données 
+et il y'a pas d'erreur à ce niveau là. 
+
 ## Getting Started
 
 First, run the development server:
